@@ -2,10 +2,15 @@
 //
 
 #include <iostream>
-
+#include "Weather.h"
+#include "Service.h"
+#include "XmlService.h"
+using namespace std;
 int main()
 {
-    std::cout << "Hello World!\n";
+    XmlService xs;
+    Weather w = xs.getWeather("weather.xml");
+    cout << w;
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"

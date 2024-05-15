@@ -16,4 +16,5 @@ ostream& operator << (ostream& out, Weather inf) {
 	out << "   Weather      " << inf.weather << "\n";
 	out << "   Wind speed   " << inf.windSpeed << "\n";
 	out << "   Clouds       " << inf.clouds << "\n";
+	return out;
 }
