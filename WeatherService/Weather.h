@@ -12,7 +12,9 @@ class Weather
 	std::string weather; // дождь
 	double windSpeed; // 4.27
 	int clouds; // 100
+public:
 	Weather(string city, double lon, double lat, double temperature, string weather, double windSpeed, int clouds);
 	friend ostream& operator << (ostream& out, Weather inf);
+	~Weather() {};
 };
 
