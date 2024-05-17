@@ -1,4 +1,8 @@
-﻿  WeatherService.cpp
+﻿  pugixml.cpp
+  JsonService.cpp
+  Service.cpp
+  Weather.cpp
+  WeatherService.cpp
   XmlService.cpp
   Создание кода...
   LINK : не найден или не выполнена сборка C:\Users\Человек\Desktop\ВП\Лаба7\Гит\VP-Lab-7\WeatherService\Debug\WeatherService.exe при последней инкрементной компоновке; выполняется полная компоновка
